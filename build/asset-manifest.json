@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.438b1d3e.chunk.css",
+    "main.js": "/static/js/main.9dc37f9e.chunk.js",
+    "main.js.map": "/static/js/main.9dc37f9e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f2af1d19.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f2af1d19.js.map",
+    "static/js/2.2b9001df.chunk.js": "/static/js/2.2b9001df.chunk.js",
+    "static/js/2.2b9001df.chunk.js.map": "/static/js/2.2b9001df.chunk.js.map",
+    "static/js/3.73f067dd.chunk.js": "/static/js/3.73f067dd.chunk.js",
+    "static/js/3.73f067dd.chunk.js.map": "/static/js/3.73f067dd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.438b1d3e.chunk.css.map": "/static/css/main.438b1d3e.chunk.css.map",
+    "static/js/2.2b9001df.chunk.js.LICENSE.txt": "/static/js/2.2b9001df.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/fondo.84380359.png",
+    "static/media/back.7490789c.png": "/static/media/back.7490789c.png",
+    "static/media/RecipeCreate.module.css": "/static/media/create.b0269f94.png",
+    "static/media/Detail.module.css": "/static/media/detail3.416dd6e6.png",
+    "static/media/Card.module.css": "/static/media/equis.7663abdb.png",
+    "static/media/fodmap.8fd6facd.jpg": "/static/media/fodmap.8fd6facd.jpg",
+    "static/media/gluten.7ea2dccf.png": "/static/media/gluten.7ea2dccf.png",
+    "static/media/keto.3ffe7340.png": "/static/media/keto.3ffe7340.png",
+    "static/media/lactovo.d257ce0f.png": "/static/media/lactovo.d257ce0f.png",
+    "static/media/loading.13690f7b.gif": "/static/media/loading.13690f7b.gif",
+    "static/media/logolanding.018a7131.png": "/static/media/logolanding.018a7131.png",
+    "static/media/logonatalia.687e4c26.png": "/static/media/logonatalia.687e4c26.png",
+    "static/media/lupa.17aa3caa.png": "/static/media/lupa.17aa3caa.png",
+    "static/media/noimage.77aa2d24.png": "/static/media/noimage.77aa2d24.png",
+    "static/media/paleo.7d4b9683.png": "/static/media/paleo.7d4b9683.png",
+    "static/media/pescatarian.746654d4.png": "/static/media/pescatarian.746654d4.png",
+    "static/media/primal.b35fea1c.png": "/static/media/primal.b35fea1c.png",
+    "static/media/salir.90339b3f.png": "/static/media/salir.90339b3f.png",
+    "static/media/whole.0b65c933.png": "/static/media/whole.0b65c933.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2af1d19.js",
+    "static/js/2.2b9001df.chunk.js",
+    "static/css/main.438b1d3e.chunk.css",
+    "static/js/main.9dc37f9e.chunk.js"
+  ]
+}
