@@ -32,7 +32,7 @@ export function getRecipesDetail(id) {
   return async function (dispatch) {
     try {
       // Conexión entre el front y el back para traer el detail de las recetas por id:
-      let json = await axios(`${deploy}/recipes` + id);
+      let json = await axios(`${deploy}/recipes/` + id);
       return dispatch({ type: "GET_RECIPES_DETAIL", payload: json.data });
     } catch (error) {
       console.log(error);
@@ -55,7 +55,7 @@ export function postRecipes(payload) {
 export function deleteRecipe(id) {
   return async function (dispatch) {
     try {
-      await axios.delete(`${deploy}/recipes` + id);
+      await axios.delete(`${deploy}/recipes/` + id);
       return dispatch({
         type: "DELETE_RECIPE",
         payload: id,
