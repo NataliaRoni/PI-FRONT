@@ -14,7 +14,6 @@ import keto from "../../utils/images/keto.png";
 import { deleteRecipe } from "../../actions/actions";
 import { useDispatch } from "react-redux";
 import close from "../../utils/images/equis.png";
-import swal from "sweetalert";
 
 export default function Card({
   id,
@@ -116,12 +115,13 @@ export default function Card({
   const handleDelete = (id) => {
     // Llama a la acción deleteRecipe pasando el id de la receta
     dispatch(deleteRecipe(id));
-    swal({
-      title: "Recipe deleted successfully",
-      icon: "success",
-      button: "OK",
-      className: Styles["sweet"],
-    });
+    alert("Recipe deleted successfully")
+    // swal({
+    //   title: "Recipe deleted successfully",
+    //   icon: "success",
+    //   button: "OK",
+    //   className: Styles["sweet"],
+    // });
   };
 
   const deleteButton = () => {
