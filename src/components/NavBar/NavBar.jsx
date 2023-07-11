@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { getRecipesByName } from "../../actions/actions";
 import Styles from "./NavBar.module.css";
 import search from "../../utils/images/lupa.png";
-import swal from "sweetalert";
 
 export default function NavBar({ setCurrentPage }) {
   const dispatch = useDispatch();
@@ -20,21 +19,23 @@ export default function NavBar({ setCurrentPage }) {
   function handleSubmit(e) {
     e.preventDefault();
     if (name === "") {
-      swal({
-        title: "Enter a recipe name",
-        icon: "error",
-        button: "OK",
-        className: Styles["sweet"],
-      });
+      alert("Enter a recipe name")
+      // swal({
+      //   title: "Enter a recipe name",
+      //   icon: "error",
+      //   button: "OK",
+      //   className: Styles["sweet"],
+      // });
     } else {
       dispatch(getRecipesByName(name)).then((n) => {
         if (!n) {
-          swal({
-            title: "Recipe does not exist",
-            icon: "error",
-            button: "OK",
-            className: Styles["sweet"],
-          });
+          alert("Recipe does not exist")
+          // swal({
+          //   title: "Recipe does not exist",
+          //   icon: "error",
+          //   button: "OK",
+          //   className: Styles["sweet"],
+          // });
         } else {
           setCurrentPage(1);
         }
