@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getDiets, postRecipes } from "../../actions/actions";
 import Styles from "./RecipeCreate.module.css";
 import back from "../../utils/images/back.png";
+import swal from "sweetalert"
 
 function validation(input) {
   let errors = {};
@@ -92,13 +93,13 @@ export default function RecipeCreate() {
   function handleSubmit(e) {
     e.preventDefault();
     dispatch(postRecipes(input));
-    alert("Recipe created successfully!")
-    // swal({
-    //   title: "Recipe created successfully!",
-    //   icon: "success",
-    //   button: "OK",
-    //   className: Styles["button"],
-    // });
+    // alert("Recipe created successfully!")
+    swal({
+      title: "Recipe created successfully!",
+      icon: "success",
+      button: "OK",
+      className: Styles["button"],
+    });
     setInput({
       name: "",
       image: "",
